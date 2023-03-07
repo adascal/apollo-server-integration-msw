@@ -1,0 +1,8 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.2.0/schema.json",
+  "access": "public",
+  "baseBranch": "master",
+  "changelog": ["@changesets/changelog-github", { "repo": "adascal/apollo-server-integration-msw" }],
+  "commit": false,
+  "updateInternalDependencies": "patch"
+}
